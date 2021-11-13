@@ -13,5 +13,12 @@ defaults:
     values:
       layout: "default"
 
+remote_theme: pages-themes/midnight@v0.2.0
+
+lang: ru
+title: Эйдос
+description: Школа иностранных языков – английский язык в Обнинске
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-remote-theme

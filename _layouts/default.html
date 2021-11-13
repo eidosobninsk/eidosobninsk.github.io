@@ -1,21 +1,67 @@
 <!doctype html>
-<html lang="ru">
+<html lang="{{ site.lang | default: " en-US" }}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 </head>
 <body>
+<div id="header">
     <nav>
-    {% for item in site.data.nav.main %}
-        <a{% if item.link == page.url %} class="current"{% endif %} href="{{ item.link }}">{{ item.name }}</a>
-    {% endfor %}
+        <ul>
+            <li class="fork"><a href="/">На главную</a></li>
+        </ul>
     </nav>
-{{ content }}
+</div>
+<div class="wrapper">
+    <section>
+        <div id="title">
+            <h1>{{ site.title }}</h1>
+            <p>{{ site.description }}</p>
+        </div>
+        {{ content }}
+    </section>
+    <aside>
+        <nav>
+            <ul>
+            {% for item in site.data.nav.main %}
+                <li>
+                    <a{% if item.link == page.url %} class="current"{% endif %} href="{{ item.link }}">{{ item.name }}</a>
+                    {% if item.children.size > 0 %}
+                    <ul>
+                        {% for subitem in item.children %}
+                        <li>
+                            <a{% if subitem.link == page.url %} class="current"{% endif %} href="{{ subitem.link }}">{{ subitem.name }}</a>
+                            {% if subitem.children.size > 0 %}
+                            <ul>
+                                {% for subsubitem in subitem.children %}
+                                <li>
+                                    <a{% if subsubitem.link == page.url %} class="current"{% endif %} href="{{ subsubitem.link }}">{{ subsubitem.name }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+        </nav>
+    </aside>
+</div>
 </body>
 </html>

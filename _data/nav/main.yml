@@ -1,4 +1,196 @@
-- name: Главная
-  link: /
-- name: Новости
-  link: /news.html
+- name: Основные сведения
+  link: /osnovnye-svedeniya.html
+  children: []
+- name: Структура и органы управления образовательной организации
+  link: /struktura-i-organy-upravleniya-obrazovatelnoj-organizatsii.html
+  children: []
+- name: Документы
+  link: /dokumenty.html
+  children:
+    - name: устав образовательной организации
+      link: /ustav-obrazovatelnoj-organizatsii.html
+      children: []
+    - name: правила внутреннего распорядка обучающихся
+      link: /pravila-vnutrennego-rasporyadka-obuchauschihsya.html
+      children: []
+    - name: правила внутреннего трудового распорядка
+      link: /pravila-vnutrennego-trudovogo-rasporyadka.html
+      children: []
+    - name: отчет о результатах самообследования
+      link: /otchet-o-rezultatah-samoobsledovaniya.html
+      children: []
+    - name: предписания органов, осуществляющих государственный контроль (надзор) в сфере       образования
+      link: /predpisaniya-organov-osuschestvlyauschih-gosudarstvennyj-kontrol-nadzor-v-sfere-obrazovaniya.html
+      children: []
+    - name: отчеты об исполнении предписаний, осуществляющих государственный контроль (надзор) в сфере образования
+      link: /otchety-ob-ispolnenii-predpisanij-osuschestvlyauschih-gosudarstvennyj-kontrol-nadzor-v-sfere-obrazovaniya.html
+      children: []
+    - name: локальные нормативные акты образовательной организации по основным вопросам организации и осуществления образовательной деятельности
+      link: /lokalnye-normativnye-akty-obrazovatelnoj-organizatsii-po-osnovnym-voprosam-organizatsii-i-osuschestvleniya-obrazovatelnoj-deyatelnosti.html
+      children:
+        - name: правила приёма обучающихся
+          link: /pravila-priyoma-obuchauschihsya.html
+        - name: режим занятий обучающихся
+          link: /rezhim-zanyatij-obuchauschihsya.html
+        - name: формы, периодичность и порядок текущего контроля успеваемости и промежуточной аттестации обучающихся
+          link: /formy-periodichnost-i-poryadok-tekuschego-kontrolya-uspevaemosti-i-promezhutochnoj-attestatsii-obuchauschihsya.html
+        - name: порядок и основания перевода, отчисления и восстановления обучающихся
+          link: /poryadok-i-osnovaniya-perevoda-otchisleniya-i-vosstanovleniya-obuchauschihsya.html
+        - name: порядок оформления возникновения, приостановления и прекращения отношений между образовательной организацией и обучающимися и (или) родителями (законными представителями) несовершеннолетних обучающихся
+          link: /poryadok-oformleniya-vozniknoveniya-priostanovleniya-i-prekrascheniya-otnoshenij-mezhdu-obrazovatelnoj-organizatsiej-i-obuchauschimisya-i-ili-roditelyami-zakonnymi-predstavitelyami-nesovershennoletnih-obuchauschihsya.html
+- name: Образование
+  link: /obrazovanie.html
+  children:
+    - name: информация о реализуемых образовательных программах
+      link: /informatsiya-o-realizuemyh-obrazovatelnyh-programmah.html
+      children: []
+    - name: описание образовательной программы
+      link: /opisanie-obrazovatelnoj-programmy.html
+      children:
+        - name: учебный план
+          link: /uchebnyj-plan.html
+        - name: аннотации к рабочим программам
+          link: /annotatsii-k-rabochim-programmam.html
+        - name: календарный учебный график
+          link: /kalendarnyj-uchebnyj-grafik.html
+        - name: методические и иные документы, разработанные образовательной организацией для обеспечения образовательного процесса
+          link: /metodicheskie-i-inye-dokumenty-razrabotannye-obrazovatelnoj-organizatsiej-dlya-obespecheniya-obrazovatelnogo-protsessa.html
+    - name: информация о численности обучающихся
+      link: /informatsiya-o-chislennosti-obuchauschihsya.html
+      children:
+        - name: об общей численности обучающихся
+          link: /ob-obschej-chislennosti-obuchauschihsya.html
+        - name: о численности обучающихся за счёт бюджетных ассигнований за счёт федерального бюджета (в том числе с выделением численности обучающихся, являющихся иностранными гражданами)
+          link: /o-chislennosti-obuchauschihsya-za-schyot-budzhetnyh-assignovanij-za-schyot-federalnogo-budzheta-v-tom-chisle-s-vydeleniem-chislennosti-obuchauschihsya-yavlyauschihsya-inostrannymi-grazhdanami-.html
+        - name: о численности обучающихся за счёт бюджетных ассигнований бюджетов Российской Федерации (в том числе с выделением численности обучающихся, являющихся иностранными гражданами)
+          link: /o-chislennosti-obuchauschihsya-za-schyot-budzhetnyh-assignovanij-budzhetov-rossijskoj-federatsii-v-tom-chisle-s-vydeleniem-chislennosti-obuchauschihsya-yavlyauschihsya-inostrannymi-grazhdanami-.html
+        - name: о численности обучающихся за счёт бюджетных ассигнований местных бюджетов (в том числе с выделением численности обучающихся, являющихся иностранными гражданами)
+          link: /o-chislennosti-obuchauschihsya-za-schyot-budzhetnyh-assignovanij-mestnyh-budzhetov-v-tom-chisle-s-vydeleniem-chislennosti-obuchauschihsya-yavlyauschihsya-inostrannymi-grazhdanami-.html
+        - name: о численности обучающихся по договорам об образовании, заключаемых при приёме на обучение за счёт средств физического и (или) юридического лица (далее – договор об оказании платных образовательных услуг) (в том числе с выделением численности обучающихся, являющихся иностранными гражданами)
+          link: /o-chislennosti-obuchauschihsya-po-dogovoram-ob-obrazovanii-zakluchaemyh-pri-priyome-na-obuchenie-za-schyot-sredstv-fizicheskogo-i-ili-uridicheskogo-litsa-dalee-dogovor-ob-okazanii-platnyh-obrazovatelnyh-uslug-v-tom-chisle-s-vydeleniem-chislennosti-obuchauschihsya-yavlyauschihsya-inostrannymi-grazhdanami-.html
+- name: Руководство. Педагогический (научно-педагогический состав)
+  link: /rukovodstvo-pedagogicheskij-nauchno-pedagogicheskij-sostav-.html
+  children:
+    - name: руководитель образовательной организации
+      link: /rukovoditel-obrazovatelnoj-organizatsii.html
+      children: []
+    - name: персональный состав педагогических работников каждой реализуемой образовательной программы
+      link: /personalnyj-sostav-pedagogicheskih-rabotnikov-kazhdoj-realizuemoj-obrazovatelnoj-programmy.html
+      children: []
+- name: Материально-техническое обеспечение и оснащенность образовательного процесса
+  link: /materialno-tehnicheskoe-obespechenie-i-osnaschennost-obrazovatelnogo-protsessa.html
+  children:
+    - name: сведения об оборудованных учебных кабинетах
+      link: /svedeniya-ob-oborudovannyh-uchebnyh-kabinetah.html
+      children: []
+    - name: сведения об объектах для проведения практических занятий
+      link: /svedeniya-ob-obektah-dlya-provedeniya-prakticheskih-zanyatij.html
+      children: []
+    - name: о библиотеках
+      link: /o-bibliotekah.html
+      children: []
+    - name: об объектах спорта
+      link: /ob-obektah-sporta.html
+      children: []
+    - name: о средствах обучения и воспитания
+      link: /o-sredstvah-obucheniya-i-vospitaniya.html
+      children: []
+    - name: об условиях питания обучающихся
+      link: /ob-usloviyah-pitaniya-obuchauschihsya.html
+      children: []
+    - name: об условиях охраны здоровья обучающихся
+      link: /ob-usloviyah-ohrany-zdorovya-obuchauschihsya.html
+      children: []
+    - name: о доступе к информационным системам и информационно-телекоммуникационным сетям
+      link: /o-dostupe-k-informatsionnym-sistemam-i-informatsionno-telekommunikatsionnym-setyam.html
+      children: []
+    - name: об электронных образовательных ресурсах, к которым обеспечивается доступ обучающихся
+      link: /ob-elektronnyh-obrazovatelnyh-resursah-k-kotorym-obespechivaetsya-dostup-obuchauschihsya.html
+      children:
+        - name: о собственных образовательных и информационных ресурсах
+          link: /o-sobstvennyh-obrazovatelnyh-i-informatsionnyh-resursah.html
+        - name: о сторонних электронных образовательных и информационных ресурсах (при наличии)
+          link: /o-storonnih-elektronnyh-obrazovatelnyh-i-informatsionnyh-resursah-pri-nalichii-.html
+- name: Платные образовательные услуги
+  link: /platnye-obrazovatelnye-uslugi.html
+  children:
+    - name: документы о порядке оказания платных образовательных услуг
+      link: /dokumenty-o-poryadke-okazaniya-platnyh-obrazovatelnyh-uslug.html
+    - name: документы об утверждении стоимости обучения по каждой образовательной программе
+      link: /dokumenty-ob-utverzhdenii-stoimosti-obucheniya-po-kazhdoj-obrazovatelnoj-programme.html
+- name: Финансово-хозяйственная деятельность
+  link: /finansovo-hozyajstvennaya-deyatelnost.html
+  children:
+    - name: информация об объёме образовательной деятельности, финансовое обеспечение которой осуществляется
+      link: /informatsiya-ob-obyome-obrazovatelnoj-deyatelnosti-finansovoe-obespechenie-kotoroj-osuschestvlyaetsya.html
+      children:
+        - name: за счёт ассигнований федерального бюджета
+          link: /za-schyot-assignovanij-federalnogo-budzheta.html
+          children: []
+        - name: за счёт бюджетов субъектов Российской Федерации
+          link: /za-schyot-budzhetov-subektov-rossijskoj-federatsii.html
+        - name: за счёт местных бюджетов
+          link: /za-schyot-mestnyh-budzhetov.html
+        - name: по договорам об оказании платных образовательных услуг
+          link: /po-dogovoram-ob-okazanii-platnyh-obrazovatelnyh-uslug.html
+    - name: информация о поступлении финансовых и материальных средств по итогам финансового года
+      link: /informatsiya-o-postuplenii-finansovyh-i-materialnyh-sredstv-po-itogam-finansovogo-goda.html
+    - name: информация о расходовании финансовых и материальных средств по итогам финансового года
+      link: /informatsiya-o-rashodovanii-finansovyh-i-materialnyh-sredstv-po-itogam-finansovogo-goda.html
+    - name: копия плана финансово-хозяйственной деятельности образовательной организации
+      link: /kopiya-plana-finansovo-hozyajstvennoj-deyatelnosti-obrazovatelnoj-organizatsii.html
+- name: Вакантные места для приема (перевода) обучающихся
+  link: /informatsiya-o-postuplenii-finansovyh-i-materialnyh-sredstv-po-itogam-finansovogo-goda.html
+  children:
+    - name: информация о количестве вакантных мест для приёма (перевода) обучающихся по каждой реализуемой образовательной программе
+      link: /informatsiya-o-rashodovanii-finansovyh-i-materialnyh-sredstv-po-itogam-finansovogo-goda.html
+      children:
+        - name: количество вакантных мест для приёма (перевода) за счёт бюджетных ассигнований федерального бюджета
+          link: /kopiya-plana-finansovo-hozyajstvennoj-deyatelnosti-obrazovatelnoj-organizatsii.html
+        - name: количество вакантных мест для приёма (перевода) за счёт бюджетных ассигнований бюджетов Российской Федерации
+          link: /vakantnye-mesta-dlya-priema-perevoda-obuchauschihsya.html
+        - name: количество вакантных мест для приёма (перевода) за счёт бюджетных ассигнований местных бюджетов
+          link: /informatsiya-o-kolichestve-vakantnyh-mest-dlya-priyoma-perevoda-obuchauschihsya-po-kazhdoj-realizuemoj-obrazovatelnoj-programme.html
+        - name: количество вакантных мест для приёма (перевода) за счёт средств физических и (или) юридических лиц.
+          link: /kolichestvo-vakantnyh-mest-dlya-priyoma-perevoda-za-schyot-budzhetnyh-assignovanij-federalnogo-budzheta.html
+- name: Доступная среда
+  link: /kolichestvo-vakantnyh-mest-dlya-priyoma-perevoda-za-schyot-budzhetnyh-assignovanij-budzhetov-rossijskoj-federatsii.html
+  children:
+    - name: информация о специальных условиях для обучения инвалидов и лиц с ограниченными возможностями здоровья
+      link: /kolichestvo-vakantnyh-mest-dlya-priyoma-perevoda-za-schyot-budzhetnyh-assignovanij-mestnyh-budzhetov.html
+      children:
+        - name: специально оборудованные учебные кабинеты
+          link: /kolichestvo-vakantnyh-mest-dlya-priyoma-perevoda-za-schyot-sredstv-fizicheskih-i-ili-uridicheskih-lits-.html
+        - name: объекты для проведения практических занятий, приспособленных для использования инвалидами и лицами с ограниченными возможностями здоровья
+          link: /dostupnaya-sreda.html
+        - name: библиотека, приспособленная для использования инвалидами и лицами с ограниченными возможностями здоровья
+          link: /informatsiya-o-spetsialnyh-usloviyah-dlya-obucheniya-invalidov-i-lits-s-ogranichennymi-vozmozhnostyami-zdorovya.html
+        - name: объекты спорта, приспособленные для использования инвалидами и лицами с ограниченными возможностями здоровья
+          link: /spetsialno-oborudovannye-uchebnye-kabinety.html
+        - name: средства обучения и воспитания, приспособленные для использования инвалидами и лицами с ограниченными возможностями здоровья
+          link: /obekty-dlya-provedeniya-prakticheskih-zanyatij-prisposoblennyh-dlya-ispolzovaniya-invalidami-i-litsami-s-ogranichennymi-vozmozhnostyami-zdorovya.html
+        - name: обеспечение беспрепятственного доступа в помещения образовательной организации
+          link: /biblioteka-prisposoblennaya-dlya-ispolzovaniya-invalidami-i-litsami-s-ogranichennymi-vozmozhnostyami-zdorovya.html
+        - name: специальные условия питания
+          link: /obekty-sporta-prisposoblennye-dlya-ispolzovaniya-invalidami-i-litsami-s-ogranichennymi-vozmozhnostyami-zdorovya.html
+        - name: специальные условия охраны здоровья
+          link: /sredstva-obucheniya-i-vospitaniya-prisposoblennye-dlya-ispolzovaniya-invalidami-i-litsami-s-ogranichennymi-vozmozhnostyami-zdorovya.html
+        - name: доступ к информационным системам и информационно-телекоммуникационным сетям, приспособленными для использования инвалидами и лицами с ограниченными возможностями здоровья
+          link: /obespechenie-besprepyatstvennogo-dostupa-v-pomescheniya-obrazovatelnoj-organizatsii.html
+        - name: электронные образовательные ресурсы, к которым обеспечивается доступ инвалидов и лиц с ограниченными возможностями здоровья
+          link: /spetsialnye-usloviya-pitaniya.html
+        - name: наличие специальных технических средств обучения коллективного и индивидуального пользования
+          link: /spetsialnye-usloviya-ohrany-zdorovya.html
+        - name: наличие условий для беспрепятственного доступа в общежитие, интернат
+          link: /dostup-k-informatsionnym-sistemam-i-informatsionno-telekommunikatsionnym-setyam-prisposoblennymi-dlya-ispolzovaniya-invalidami-i-litsami-s-ogranichennymi-vozmozhnostyami-zdorovya.html
+        - name: количество жилых помещений в общежитии, интернате, приспособленных для использования инвалидами и лицами с ограниченными возможностями здоровья.
+          link: /elektronnye-obrazovatelnye-resursy-k-kotorym-obespechivaetsya-dostup-invalidov-i-lits-s-ogranichennymi-vozmozhnostyami-zdorovya.html
+- name: Международное сотрудничество
+  link: /nalichie-spetsialnyh-tehnicheskih-sredstv-obucheniya-kollektivnogo-i-individualnogo-polzovaniya.html
+  children:
+    - name: заключённые и планируемые к заключению договоры с иностранными и (или) международными организациями по вопросам образования и науки
+      link: /nalichie-uslovij-dlya-besprepyatstvennogo-dostupa-v-obschezhitie-internat.html
+      children: []
+    - name: международная аккредитация образовательных программ
+      link: /kolichestvo-zhilyh-pomeschenij-v-obschezhitii-internate-prisposoblennyh-dlya-ispolzovaniya-invalidami-i-litsami-s-ogranichennymi-vozmozhnostyami-zdorovya-.html
+      children: []
