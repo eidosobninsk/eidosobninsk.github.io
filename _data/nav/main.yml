@@ -1,0 +1,4 @@
+- name: Главная
+  link: /
+- name: Новости
+  link: /news.html
